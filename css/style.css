@@ -6,21 +6,10 @@ body {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 30px;
-  margin-bottom: 25px;
-  background: #135aaa;
-  line-height: 32px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
+/* Оформление главной страницы*/
 html,
 body {
-  min-width: 1122px;/*Откуда это значение*-1122*/
-  min-height: 1160px;/*Почему? - 1750px*/
+  min-width: 1200px;
   margin: 0;
   padding: 0;
 }
@@ -39,10 +28,11 @@ body {
 
 .main-header {
   margin-bottom: 56px;
-  background: #135aaa;
+  background: #c1cdd5;
 }
 
-.main-navigation {
+.main-navigation,
+.navigation  {
   float: left;
   width: 780px;
 
@@ -50,7 +40,8 @@ body {
   min-height: 70px;
 }
 
-.main-navigation li {
+.main-navigation li,
+.navigation li {
   display: inline-block;
   vertical-align: top;
 }
@@ -111,14 +102,10 @@ body {
 
 .main-footer,
 .footer {
-  margin-top: 65px; /*?*/
+  margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
-  background: #135aaa;
-}
-
-.footer {
-  margin-top: 50px;
+  background: #c1cdd5;
 }
 
 .footer-contacts {
@@ -146,70 +133,49 @@ body {
   min-height: 90px;
 }
 
-.catalog-filter {
-  float: left;
-  width: 220px;
-  margin-right: 20px;
-  background: #a3c3e6;
+/* Оформление страницы barbershop-item*/
 
-  /* Только для оформления сетки */
-  min-height: 590px;
-}
-
-.catalog  {
-  float:right;
-  width: 700px;
-  background: #a3c3e6;
-
-  /* Только для оформления сетки */
-  min-height: 590px;
-}
-
-.catalog-item {
+.main-header img {
+  width: 140px;
   float:left;
-  width: 220px;
   margin-right: 20px;
-  margin-bottom: 20px;
-  background: #135aaa;
-
-  /* Только для оформления сетки */
-  min-height: 287px;
+  background: #c1cdd5;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.catalog-item:nth-child(3n) {
-  margin-right: 0;
+.navigation {
+   width: 620px;
 }
 
-.catalog-item:nth-child(4),
-.catalog-item:nth-child(5),
-.catalog-item:nth-child(6) {
-  margin-bottom: 45px;
+h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  background: #c1cdd5;
+  line-height: 32px;
 }
 
-.paginator {
-  background: #135aaa;
-  clear:both;
-  margin-left:240px;
+h2 {
+  font-size: 24px;
 }
 
 .breadcrumbs  {
   margin-bottom: 55px;
-  width: 630px;
-  background: #135aaa;
+  background: #c1cdd5;
 
   /* Только для оформления сетки */
   min-height: 16px;
 }
 
-.breadcrumbs  li {
+.breadcrumbs li {
   display: inline-block;
 }
 
 .item-gallery {
   float:left;
   width: 460px;
-  background: #135aaa;
-  margin-right: 80px;
+  background: #c1cdd5;
+  padding: 0px;
 
   /* Только для оформления сетки */
   min-height: 670px;
@@ -218,7 +184,7 @@ body {
 .item-information {
   float:right;
   width: 400px;
-  background: #135aaa;
+  background: #c1cdd5;
 
   /* Только для оформления сетки */
   min-height: 670px;
@@ -229,26 +195,72 @@ body {
 }
 
 .gallery-image {
-    float:left;
     width: 140px;
-    margin-right: 20px;
+    margin-right: 17px;
+    margin-bottom: 0px;
 }
 
 .gallery-image:last-child {
     margin-right: 0px;
 }
 
-.item-availability,
-.item-article  {
-  float: left;
+/*.item-availability {
   width: 180px;
   margin-right: 40px;
   margin-bottom: 40px;
   margin-top: 24px;
   min-height: 16px;
   background: #e9d3c0;
+}*/
+
+
+.footer {
+  margin-top: 50px;
 }
 
-.item-article {
-  margin-right: 0px;
+/* Оформление страницы barbershop-shop*/
+
+.catalog-filter {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  background: #c1cdd5;
+
+  /* Только для оформления сетки */
+  min-height: 594px;
 }
+
+.catalog  {
+  float:right;
+  width: 700px;
+  background: #c1cdd5;
+
+  /* Только для оформления сетки */
+  min-height: 684px;
+}
+
+.catalog-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  margin-right: 17px;
+  margin-bottom: 20px;
+  background: #94b4cb;
+
+  /* Только для оформления сетки */
+  min-height: 287px;
+}
+
+.catalog-item:nth-child(3n) {
+   margin-right: 0px;
+ }
+
+.paginator {
+  background: #94b4cb;
+  margin-top: 25px;
+  margin-bottom: 0px;
+    /* Только для оформления сетки */
+  min-height: 45px;
+}
+
+
