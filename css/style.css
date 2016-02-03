@@ -9,7 +9,7 @@ body {
 /* Оформление главной страницы*/
 html,
 body {
-  min-width: 1200px;
+  min-width: 960px;
   margin: 0;
   padding: 0;
 }
@@ -194,9 +194,13 @@ h2 {
   margin-bottom: 10px;
 }
 
+.gallery-other {
+  font-size: 0px;
+}
+
 .gallery-image {
     width: 140px;
-    margin-right: 17px;
+    margin-right: 20px;
     margin-bottom: 0px;
 }
 
@@ -234,6 +238,7 @@ h2 {
   float:right;
   width: 700px;
   background: #c1cdd5;
+  font-size: 0px;
 
   /* Только для оформления сетки */
   min-height: 684px;
@@ -243,9 +248,10 @@ h2 {
   display: inline-block;
   vertical-align: top;
   width: 220px;
-  margin-right: 17px;
+  margin-right: 20px;
   margin-bottom: 20px;
   background: #94b4cb;
+  font-size: 14px;
 
   /* Только для оформления сетки */
   min-height: 287px;
@@ -261,6 +267,7 @@ h2 {
   margin-bottom: 0px;
     /* Только для оформления сетки */
   min-height: 45px;
+  font-size: 14px;
 }
 
 
